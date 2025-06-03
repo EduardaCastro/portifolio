@@ -28,7 +28,7 @@ function verificarTentativa(senha, tentativa) {
 export default function JogoRosa() {
   const [senha, setSenha] = useState(() => gerarSenha());
   const [tentativa, setTentativa] = useState("");
-  const [tentativas, setTentativas] = useState<{ }>([]);
+  const [tentativas, setTentativas] = useState([]);
   const [fimDeJogo, setFimDeJogo] = useState(false);
   const [mensagemFinal, setMensagemFinal] = useState("");
 
